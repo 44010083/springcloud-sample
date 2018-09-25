@@ -1,0 +1,14 @@
+<html>
+
+<body>
+
+</body>
+<script>
+  var url = window.location.href;
+  var newUrl = url + '/swagger-ui.html';
+  if(url.endsWith("/")){
+    newUrl = url + 'swagger-ui.html';
+  }
+  window.location.href= newUrl;
+</script>
+</html>
